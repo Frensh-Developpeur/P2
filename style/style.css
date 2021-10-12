@@ -244,6 +244,11 @@ li i {
   font-size: 12px;
   padding-bottom: 5px;
 }
+.fas.fa-star,
+.far.fa-star {
+  width: 10px;
+}
+
 .bold-secondtitle {
   font-weight: bold;
 }
