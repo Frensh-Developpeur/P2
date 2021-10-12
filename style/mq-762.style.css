@@ -76,4 +76,13 @@
   .sec-act {
     height: auto;
   }
+  .container-two-act,
+  .act-four,
+  .act-one,
+  .containers-tree {
+    margin: 10px;
+  }
+  .h3-act {
+    margin-left: 20px;
+  }
 }
