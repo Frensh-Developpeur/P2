@@ -42,7 +42,7 @@ au centre et à droite */
 }
 /* Config des ol contenue dans la nav ( Bloc de 80px pour la border:hover et aligne les 
 élements au milieu de la boite */
-.ol-nav {
+.ul-nav {
   height: 80px;
 }
 /* Config des liste à puce ( taille de 120px pour accueillir ses objets et 
@@ -255,6 +255,7 @@ li i {
 
 .bold-secondtitle {
   font-weight: bold;
+  \000024;
 }
 .li-img {
   list-style: none;
@@ -449,9 +450,9 @@ li i {
   flex-direction: row;
   height: 200px;
 }
-.one-ol-foot,
-.two-ol-foot,
-.tree-ol-foot {
+.one-ul-foot,
+.two-ul-foot,
+.tree-ul-foot {
   padding-top: 20px;
   padding-left: 40px;
   padding-right: 100px;

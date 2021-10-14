@@ -33,7 +33,7 @@
     justify-content: center;
     width: 100%;
   }
-  form ol:hover {
+  form ul:hover {
     border-top: 2px solid transparent;
     border-bottom: 2px solid blue;
   }
@@ -62,6 +62,7 @@
   }
   .li-nav:hover {
     border-top: none;
+    padding-bottom: 10px;
     border-bottom: 2px solid blue;
   }
   .lasttitle-heb {
@@ -95,17 +96,16 @@
     display: flex;
     flex-direction: column;
   }
-  .one-ol-foot,
-  .two-ol-foot,
-  .tree-ol-foot {
+  .one-ul-foot,
+  .two-ul-foot,
+  .tree-ul-foot {
     padding-left: 0px;
   }
   .li-nav {
     padding-left: 0px;
     width: 49%;
-    padding-bottom: 10px;
   }
-  .ol-nav,
+  .ul-nav,
   .nav-head {
     width: 100%;
     height: auto;
@@ -115,12 +115,12 @@
     width: 80%;
     padding-left: 40px;
   }
-}
-.div-sec {
-  margin-top: 30px;
-}
-.h3-sec {
-  margin-top: 5px;
-  font-size: 15px;
-  padding-left: 40px;
+  .div-sec {
+    margin-top: 30px;
+  }
+  .h3-sec {
+    margin-top: 5px;
+    font-size: 15px;
+    padding-left: 40px;
+  }
 }
